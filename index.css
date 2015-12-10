@@ -28,19 +28,28 @@ header {
 	text-align: right;
 }
 
-.signup {
+.contact {
 	position: absolute;
-	top:1%;
-	right:15%;
+	top:8%;
+	right: 8%;
 	transform: translate(50%, 50%);
 	color: white;
 	text-align: right;
 }
 
-.login {
+.portfolio {
 	position: absolute;
 	top:1%;
-	right:6%;
+	right:8%;
+	transform: translate(50%, 50%);
+	color: white;
+	text-align: right;
+}
+
+.about {
+	position: absolute;
+	top:15%;
+	right:8%;
 	transform: translate(50%, 50%);
 	color: white;
 	text-align: right;
@@ -64,13 +73,14 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
-	font-size: 5rem;
+	font-size: 5.5rem;
+	margin: 0;
 	text-align: center;
 	white-space: nowrap;
 }
 
 p {
-	margin: 0;
+	margin: 2px;
 	font-size: 2rem;
 	text-align: center;
 }
